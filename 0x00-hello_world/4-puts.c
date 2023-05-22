@@ -2,7 +2,7 @@
 /**
  * main - this will be exectude fast
  * Mystr: this variable
- * return: 0 for success
+ * return: Always 0 (Success)
  */
 int main(void)
 {
