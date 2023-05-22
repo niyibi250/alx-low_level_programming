@@ -1,13 +1,12 @@
-#include<stdio.h>
+#include <stdio.h>
+
 /**
- * main - this will be exectude fast
- * Mystr: this variable
- * return: Always 0 (Success)
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char Mystr[] = "\"Programming is like building a multilingual puzzle";
-
-	puts(Mystr);
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
