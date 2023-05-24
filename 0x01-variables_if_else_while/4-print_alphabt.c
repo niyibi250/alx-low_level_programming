@@ -5,10 +5,16 @@
  */
 int main(void)
 {
-	int numb;
+	int numb = 97;
 
-	for (numb = 97; numb < 123; numb++)
+	while (numb < 123)
 	{
-		putchar(numb); }
+		if ((numb != 101) && (numb != 113))
+		{
+			putchar(numb);
+
+		}
+
+	}
 	putchar('\n');
 	return (0); }
