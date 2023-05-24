@@ -10,6 +10,7 @@ int main(void)
 	while (numb < 123)
 	{
 		putchar (numb);
+		putchar ('\n');
 		numb++;
 
 	}
