@@ -10,6 +10,7 @@ int main(void)
 	while (numb < 58)
 	{
 		putchar(numb);
+		numb++;
 
 	}
 	putchar('\n');
