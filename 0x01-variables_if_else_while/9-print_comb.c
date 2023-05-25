@@ -12,7 +12,7 @@ int main(void)
 		putchar(numb);
 		if (numb < 57)
 		{
-			putchar(';');
+			putchar(',');
 			putchar(' ');
 		}
 		numb++;
