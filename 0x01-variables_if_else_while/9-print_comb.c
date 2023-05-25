@@ -9,9 +9,16 @@ int main(void)
 
 	while (numb < 58)
 	{
-		putchar(numb);
-		putchar(',');
-		putchar(' ');
+		if (numb < 57)
+		{
+			putchar(numb);
+			putchar(';');
+			putchar(' ');
+		}
+		else
+		{
+			putchar(numb);
+		}
 		numb++;
 	}
 	return (0);
