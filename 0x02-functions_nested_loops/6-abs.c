@@ -1,19 +1,19 @@
 #include "main.h"
 /**
  * _abs - Absolute of number
- * @numb: local varible
+ * @c: local varible
  * Return: absolute of number
  */
-int _abs(int numb)
+int _abs(int c)
 {
-	int numb;
+	int c;
 
-	if (numb < 0)
+	if (c < 0)
 	{
-		return (numb * -1);
+		return (c * -1);
 	}
 	else
 	{
-		return (numb);
+		return (c);
 	}
 }
