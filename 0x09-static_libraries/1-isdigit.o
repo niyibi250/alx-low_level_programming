@@ -1,0 +1,10 @@
+#include "main.h"
+/**
+ * _isdigit - fanction
+ * @c:input
+ * Return: intiger
+ */
+int _isdigit(int c)
+{
+
+}
