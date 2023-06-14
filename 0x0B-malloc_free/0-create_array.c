@@ -1,30 +1,25 @@
 #include "main.h"
 
 /**
- * _strdup - make arrey
- * @str: string
- * Return: return arrey
+ * create_array - creates an array
+ * @size: size of array
+ * @c: character
+ * Return: pointer
  */
-char *_strdup(char *str)
+char *create_array(unsigned int size, char c)
 {
-	int size = 0;
-	char *ptr, *ret;
+	char *first;
+	unsigned int i;
 
-	if (!str)
+	if (size <= 0)
 		return (NULL);
 
-	ptr = str;
-	while (*ptr++)
-		size++;
-
-	ret = malloc(size + 1);
-	if (!ret)
+	first = malloc(size);
+	if (first == NULL)
 		return (NULL);
 
-	ptr = ret;
-	while (*str)
-		*ptr++ = *str++;
+	for (i = 0; i < size; i++)
+		first[i] = c;
 
-	*ptr = 0;
-	return (ret);
+	return (first);
 }
