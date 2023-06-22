@@ -3,7 +3,6 @@
 #include <stdlib.h>
 /**
  * print_dog - print dog struct
- * 
  * @d:variable d
  */
 void print_dog(struct dog *d)
