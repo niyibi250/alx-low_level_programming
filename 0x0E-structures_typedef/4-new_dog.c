@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*
- * new_dog -create dog
+ * new_dog - create dog structre and return structure to main
  * @name:name of dog
  * @age: age of dog
  * @owner:owner of dog
