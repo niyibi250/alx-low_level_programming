@@ -2,7 +2,7 @@
 #include <stdarg.h>
 #include "variadic_functions.h"
 /**
- * print_number - print list of numbers
+ * print_numbers - print list of numbers
  * @separator: sepater numbers
  * @n:number of number to be printered
  * Return:void
