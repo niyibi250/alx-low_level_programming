@@ -3,7 +3,7 @@
 /**
  * print_list - print list
  * @h: list to print
- * return : return number of element printed
+ * Return: return number of element printed
  */
 
 size_t print_list(const list_t *h)
