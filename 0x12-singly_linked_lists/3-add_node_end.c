@@ -2,9 +2,9 @@
 
 /**
  * add_node_end - add element to end
- * head:list
- * str:string
- * return: return address
+ * @head:list
+ * @str:string
+ * Return: return address
  */
 list_t *add_node_end(list_t **head, const char *str)
 {

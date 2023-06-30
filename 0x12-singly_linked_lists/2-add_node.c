@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * add_node: add new node
+ * add_node - add new node
  * @head:first pointer
- * @str: string
- * return: address of element
+ * @str:string
+ * Return: address of element
  */
 
 list_t *add_node(list_t **head, const char *str)

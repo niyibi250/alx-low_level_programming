@@ -2,8 +2,8 @@
 
 /**
  * free_list - free list
- * head:list
- * return: nothing
+ * @head:list
+ * Return: nothing
  */
 
 void free_list(list_t *head)
