@@ -1,6 +1,7 @@
 #include "lists.h"
 /**
  * insert_nodeint_at_index - add element at any at any position
+ * @head:list
  * @idx:position
  * @n:data to add to node
  * Return:address of new node
