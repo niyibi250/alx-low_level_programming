@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- *
- *
- *
+ * listint_len - find number of elements
+ * @h:list
+ * Return:number of elements
  */
 size_t listint_len(const listint_t *h)
 {
