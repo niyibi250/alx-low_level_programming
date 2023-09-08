@@ -1,12 +1,13 @@
-#include <main.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <stdlib.h>
 
 /**
  * read_textfile - prints text
- *
- * @filename: file
+ * @filename: name
  * @letters: number of characters
  *
- * Return: actual number of letters read, 0 if end of file
+ * Return: number of character read
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {

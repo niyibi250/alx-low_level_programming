@@ -1,9 +1,12 @@
-#include <main.h>
-
+#include <stdio.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <sys/types.h>
+#include <sys/stat.h>
 /**
- * append_text_to_file - creates a file and puts character into it
- * @filename: name of file
- * @text_content: text puted into file
+ * append_text_to_file - creates a file and puts text
+ * @filename: name
+ * @text_content: text
  * Return: 1 on success, -1 on failure
  */
 int append_text_to_file(const char *filename, char *text_content)

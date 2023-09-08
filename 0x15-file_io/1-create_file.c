@@ -1,7 +1,10 @@
-#include <main.h>
-
+#include <stdio.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <sys/types.h>
+#include <sys/stat.h>
 /**
- * create_file - creates a file and puts characters in it
+ * create_file - creates a file and puts text
  * @filename: name
  * @text_content: text
  *

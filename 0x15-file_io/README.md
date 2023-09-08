@@ -84,4 +84,5 @@ Write a program that copies the content of a file to another file.
 * if you can not close a file descriptor , exit with code 100 and print ```Error: Can't close fd FD_VALUE```, followed by a new line, on the ```POSIX``` standard error
 	* where ```FD_VALUE``` is the value of the file descriptor
 * Permissions of the created file: ```rw-rw-r--```. If the file already exists, do not change the permissions
-* You must read ```1,024``` bytes at a time from the ```file_from``` to make less system calls.
+* You must read ```1,024``` bytes at a time from the ```file_from``` to make less system calls. Use a buffer
+* You are allowed to use ```dprintf```
